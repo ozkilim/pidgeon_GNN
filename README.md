@@ -4,7 +4,13 @@
 
 
 ### Real flight data projected into 2D space.
-![](./animations/flight_ff2.gif)
+
+### Corrolated movement
+![](./animations/flight_5.gif)
+![](./animations/flight_57.gif)
+
+### Some birds corrolated movement
+![](./animations/flight_20.gif)
 
 
 ### Vicsek model for 10 birds moving at 3m/s in 3d space projected into 2D space.
@@ -12,13 +18,17 @@
 ![](./images/v2.png)
 ![](./images/v1.png)
 ## Visulasation:  
-![](./animations/vicsek.gif)
-
+![](./animations/vicsek_noise0_05_radius_20.gif)
 ### Perameters: 
-- Noise = 0.5 
-- Velocity = 10 (m/s)
-- theta0 = 40
-- theta0 = 40
+- Noise = 0.05 
+- Velocity = 20 (m/s)
+
+![](./animations/vicsek_noise0_1_radius_20.gif)
+### Perameters: 
+- Noise = 0.1 
+- Velocity = 20 (m/s)
+
+
 
 ### Lenored Jones Potential to model the birds with a pairwise potential:  
 ![](./images/ljp.png)
