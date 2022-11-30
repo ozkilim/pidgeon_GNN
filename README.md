@@ -1,43 +1,35 @@
 # Vicsek GNN
 
-#### We first create a 3D simulation of 10 particles and tune perameters by eye so the simulation resembles the real bird data
-
-## 3D Model (mathematical description)
-<p align="center">
-    <img src="https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%20%5Ctheta_i%28t&plus;%5CDelta%20t%29%5C%5C%20%5Calpha_i%28t&plus;%5CDelta%20t%29%20%5Cend%7Bpmatrix%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20%3C%5Ctheta_i%28t%29%3E_%7B%7Cr_i-r_j%7C%3Cr%7D%5C%5C%20%3C%5Calpha_i%28t%29%3E_%7B%7Cr_i-r_j%7C%3Cr%7D%20%5Cend%7Bpmatrix%7D%20&plus;%20%5Cbegin%7Bpmatrix%7D%20%5Ceta_i%28t%29%5C%5C%20%5Cdelta_i%28t%29%20%5Cend%7Bpmatrix%7D" alt="angles vicsek equation"/>
-</p>
-
-<p align="center">
-    <img src="https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%20v_i_x%28t&plus;%5CDelta%20t%29%5C%5C%20v_i_y%28t&plus;%5CDelta%20t%29%5C%5C%20v_i_z%28t&plus;%5CDelta%20t%29%20%5Cend%7Bpmatrix%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20%5Ccos%28%5Ctheta_i%28t&plus;%5CDelta%20t%29%29%5Ccdot%5Csin%28%5Calpha_i%28t&plus;%5CDelta%20t%29%29%5C%5C%20%5Csin%28%5Ctheta_i%28t&plus;%5CDelta%20t%29%29%5Ccdot%5Csin%28%5Calpha_i%28t&plus;%5CDelta%20t%29%29%5C%5C%20%5Ccos%28%5Calpha_i%28t&plus;%5CDelta%20t%29%29%20%5Cend%7Bpmatrix%7D" alt="velocity vicsek equation"/>
-</p>
-
-<p align="center">
-    <img src="https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%20r_i_x%28t&plus;%5CDelta%20t%29%5C%5C%20r_i_y%28t&plus;%5CDelta%20t%29%5C%5C%20r_i_z%28t&plus;%5CDelta%20t%29%20%5Cend%7Bpmatrix%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20r_i_x%28t%29%5C%5C%20r_i_y%28t%29%5C%5C%20r_i_z%28t%29%20%5Cend%7Bpmatrix%7D%20&plus;%20%5Cbegin%7Bpmatrix%7D%20v_i_x%28t&plus;%5CDelta%20t%29%5C%5C%20v_i_y%28t&plus;%5CDelta%20t%29%5C%5C%20v_i_z%28t&plus;%5CDelta%20t%29%20%5Cend%7Bpmatrix%7D%20%5Ccdot%20%5CDelta%20t" alt="position vicsek equation"/>
-</p>
-
+#### Trying to uncover pairwise potentials symbolically of birds flights using GNNs
 
 
 ### Real flight data projected into 2D space.
-
 ![](./animations/flight_ff2.gif)
 
-### Vicsek model for 10 birds moving at 3m/s in 3d space projected into 2D space.
 
+### Vicsek model for 10 birds moving at 3m/s in 3d space projected into 2D space.
+## 3D Model (mathematical description)
+![](./images/v2.png)
+![](./images/v1.png)
+## Visulasation:  
 ![](./animations/vicsek.gif)
 
+### Perameters: 
+- Noise = 0.5 
+- Velocity = 10 (m/s)
+- theta0 = 40
+- theta0 = 40
+
 ### Lenored Jones Potential to model the birds with a pairwise potential:  
-![](./images/lj.svg)
+![](./images/ljp.png)
 
 
 ![](./animations/lj.gif)
 
+### Perameters: 
+- epsilon 
+- sigma 
 
-
-
-2. Visualise
-3. Turn into GNN
-4. Train GNN
-5. Perform symbolic regression on messages to try to recover Vicsek model.
 
 # Extension:
 
