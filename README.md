@@ -18,16 +18,14 @@
 ![](./images/v2.png)
 ![](./images/v1.png)
 ## Visulasation:  
-![](./animations/vicsek_noise0_05_radius_20.gif)
-### Perameters: 
-- Noise = 0.05 
-- Velocity = 20 (m/s)
 
-![](./animations/vicsek_noise0_1_radius_20.gif)
+![](./animations/vicsek_noise0_25_radius_200.gif)
 ### Perameters: 
-- Noise = 0.1 
+- Noise = 0.25
 - Velocity = 20 (m/s)
+-  Radius = 200 m 
 
+vicsek_noise0_4_radius_0_5
 
 
 ### Lenored Jones Potential to model the birds with a pairwise potential:  
