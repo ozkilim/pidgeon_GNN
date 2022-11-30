@@ -17,7 +17,9 @@
 ## 3D Model (mathematical description)
 ![](./images/v2.png)
 ![](./images/v1.png)
-## Visulasation:  
+
+
+## Visulaliztion:  
 
 ![](./animations/vicsek_noise0_25_radius_200.gif)
 ### Perameters: 
@@ -25,7 +27,16 @@
 - Velocity = 20 (m/s)
 -  Radius = 200 m 
 
-vicsek_noise0_4_radius_0_5
+![](./animations/vicsek_noise0_25_radius_100.gif)
+### Perameters: 
+- Noise = 0.25
+- Velocity = 20 (m/s)
+-  Radius = 100 m 
+
+## Limitations: 
+
+- Birds all have same velocity
+
 
 
 ### Lenored Jones Potential to model the birds with a pairwise potential:  
