@@ -51,6 +51,10 @@
 
 
 # Extension:
+Using 95 videos of collective motion flights: 
+
+![](./animations/predictiosns_notworking.gif)
+
 
 ### Apply this to real flight data to try to uncover some symbolic model.
 
