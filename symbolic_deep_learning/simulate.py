@@ -302,8 +302,8 @@ class SimulationDataset(object):
 #                 plt.ylim(-10, 10)
                 camera.snap()
 
-            animation = camera.animate()
-            animation.save('../animations/lj.gif',fps=10)
+            # animation = camera.animate()
+            # animation.save('../animations/lj.gif',fps=10)
 
             from IPython.display import HTML
             return HTML(camera.animate().to_jshtml())
