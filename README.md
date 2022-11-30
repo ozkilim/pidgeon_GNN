@@ -49,7 +49,6 @@
 - epsilon 
 - sigma 
 
-
 # Extension:
 Using 95 videos of collective motion flights: 
 
