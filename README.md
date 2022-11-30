@@ -13,13 +13,13 @@
 ![](./animations/flight_20.gif)
 
 
-### Vicsek model for 10 birds moving at 3m/s in 3d space projected into 2D space.
+## Vicsek model for 10 birds moving at 3m/s in 3d space projected into 2D space.
 ## 3D Model (mathematical description)
 ![](./images/v2.png)
 ![](./images/v1.png)
 
 
-## Visulaliztion:  
+### Visulaliztion:  
 
 ![](./animations/vicsek_noise0_25_radius_200.gif)
 ### Perameters: 
@@ -33,18 +33,17 @@
 - Velocity = 20 (m/s)
 -  Radius = 100 m 
 
-## Limitations: 
+### Limitations: 
 
 - Birds all have same velocity
 
 
-
-### Lenored Jones Potential to model the birds with a pairwise potential:  
+## Lenored Jones Potential to model the birds with a pairwise potential:  
 ![](./images/ljp.png)
-
 
 ![](./animations/lj.gif)
 
+### The GNN couldnot learn from this simulation and could not reduce its loss at all! 
 ### Perameters: 
 - epsilon 
 - sigma 
