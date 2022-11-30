@@ -49,6 +49,10 @@
 - sigma 
 
 # Extension:
+
+### Using spring as a baseline: GNN works perfectly. However pairwise rules are very rigid and simple... 
+![](./animations/predictiosns_spring.gif)
+
 Using 95 videos of collective motion flights: 
 
 ![](./animations/predictiosns_notworking.gif)
