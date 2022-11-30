@@ -16,9 +16,6 @@
 </p>
 
 
-# Project roadmap:
-
-1. Build Vicsek model simulation.
 
 ### Real flight data projected into 2D space.
 
@@ -28,9 +25,13 @@
 
 ![](./animations/vicsek.gif)
 
-### Lenored Jones Potential to model the birds with a pairwise potential: 
+### Lenored Jones Potential to model the birds with a pairwise potential:  
+![](./images/lj.svg)
+
 
 ![](./animations/lj.gif)
+
+
 
 
 2. Visualise
